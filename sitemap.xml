@@ -3,11 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://xspec.github.io/about/</loc>
+    <loc>https://xspec.github.io/posts/xspec_160_release/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://xspec.github.io/categories/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xspec.github.io/posts/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xspec.github.io/categories/release/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xspec.github.io/tags/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xspec.github.io/tags/v1.6.0/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xspec.github.io/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xspec.github.io/about/</loc>
   </url>
   
   <url>
@@ -20,14 +51,6 @@
   
   <url>
     <loc>https://xspec.github.io/help/</loc>
-  </url>
-  
-  <url>
-    <loc>https://xspec.github.io/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://xspec.github.io/</loc>
   </url>
   
 </urlset>
