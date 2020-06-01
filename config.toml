@@ -1,0 +1,88 @@
+## Basic Configuration
+baseurl = "https://xspec.github.io/"
+languageCode = "en"
+
+title = "XSpec"
+theme = "hyde-hyde"
+
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+# summarylength = 30
+
+#paginate = 5
+
+## Site Settings
+[params]
+    author = "Author"
+    title = "Title"
+    # description = "..."
+    authorimage = "/img/xspec_logo_inverted.png"
+    dateformat = "Jan 2, 2006"
+
+    # sidebar, copyright & license
+    copyright = "XSpec"
+    since = 2020
+    license = "CC BY-SA 4.0"
+    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    showBuiltWith = true
+
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "github"
+    
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
+
+    # Table of contents
+    #toc = none, "hugo", or "tocbot"
+    
+    # Disable navigation previous/post
+    postNavigation = false
+
+## Social Accounts
+[params.social]
+    github = "xspec/xspec"
+    # instagram = "<username>"
+    # xing = "<username>"
+    # linkedin = "<username>"
+    twitter = "<username>"
+    # facebook = "<username>"
+    stackoverflow = "questions/tagged/xspec"
+    # telegram = "<username>"
+    # orcid = "<xxxx-xxxx-xxxx-xxxx>"
+    # email = "your-email@example.com"
+    # gravatar = "your-email@example.com"
+
+## Main Menu
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 100
+    url = "/about/"
+[[menu.main]]
+    name = "Documentation"
+    weight = 200
+    identifier = "documentation"
+    url = "/documentation/"
+[[menu.main]]
+    name = "Blog"
+    weight = 300
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "Get Help"
+    weight = 400
+    identifier = "help"
+    url = "/help/"
+[[menu.main]]
+    name = "Contribute"
+    weight = 500
+    identifier = "contribute"
+    url = "/contribute/"
