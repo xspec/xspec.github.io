@@ -9,7 +9,7 @@ To run a local version:
 * Clone or download this repository from GitHub.
 * Checkout the branch `hugo`: `git checkout hugo`
 * Install the git submodules: `git submodule update --init --recursive`
-* Run `hugo server -D` to get a local version of the website.
+* Run `hugo server -D` to get a local version of the website on [http://localhost:1313](http://localhost:1313)
 
 To submit updates: create a pull request to the `hugo` branch.
 
