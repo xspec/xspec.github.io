@@ -1,5 +1,5 @@
 ---
-date: 2024-04-16
+date: 2024-04-17
 linktitle: Release XSpec v3.0.3
 title: Release XSpec v3.0.3
 weight: 6
@@ -10,7 +10,7 @@ tags: ["v3.0.3"]
 <a href="https://github.com/xspec/xspec/issues/1766"><img align="right" src="https://user-images.githubusercontent.com/10128303/262700963-1a1e0fda-f335-4c90-9f8a-f72c5ece6c27.png" width="100px" alt="XSpec logo proposed and discussed in #1766" /></a>
 
 ## Release XSpec v3.0.3
-Release v3.0 upgrades its connections with related software. Support for testing Schematron schemas now uses SchXslt as the built-in Schematron implementation. XSLT code coverage is compatible with Saxon 12.4 or later. These are the highlights of XSpec v3.0:
+Release v3.0.3 upgrades its connections with related software. Support for testing Schematron schemas now uses SchXslt as the built-in Schematron implementation. XSLT code coverage is compatible with Saxon 12.4 or later. These are the highlights of XSpec v3.0:
 
 #### Common to Languages Under Test
 
@@ -21,7 +21,7 @@ Release v3.0 upgrades its connections with related software. Support for testing
 
 #### XSLT
 
-- XSLT code coverage feature is compatible with Saxon 12.4. **Compatibility note:** This upgrade is not backward compatible with earlier Saxon versions.
+- XSLT code coverage feature is compatible with Saxon 12.4. **Compatibility note:** This upgrade is not backward compatible with earlier Saxon versions. Also, Saxon 12.4 does not report some `xsl:sequence` instructions that are actually hit.
 - XSpec experimentally supports testing with XSLT 4.0 and XPath 4.0. Set `xslt-version="4.0"` on `x:description`, and use an XSLT processor that has support for 4.0 enabled.
 
 #### XQuery
