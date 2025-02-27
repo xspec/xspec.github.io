@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xt:extensions xmlns:xi="http://www.w3.org/2001/XInclude"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xt="http://www.oxygenxml.com/ns/extension"
+	xsi:schemaLocation="http://www.oxygenxml.com/ns/extension http://www.oxygenxml.com/ns/extension/extensions.xsd">
+
+	<!-- This @id value assumes that https://github.com/xspec/ community owns "xspec.io". -->
+	<xt:extension id="io.xspec.xspec">
+
+		<!--
+			To publish a new version,
+			* Update this @href to a specific commit archive
+			* Increment <xt:version>
+			* Disable the new add-on version in the project options stored in xspec.xpr
+			  (Options - Preferences - Document Type Association)
+			* Update the changelog in xt:description
+		-->
+		<xt:location
+			href="https://github.com/xspec/xspec/archive/fee92fd453ac9e55e3c889df168ebc918fdc8485.zip" />
+
+		<xt:version>3.2.0</xt:version>
+
+		<!-- Note that supporting multiple oXygen versions may be hard to maintain, because
+			* oXygen add-on and framework require manual testing.
+			* oXygen framework cannot always be backward compatible. See
+			  https://github.com/TEIC/oxygen-tei/issues/30. -->
+		<xt:oxy_version>24.1+</xt:oxy_version>
+
+		<xt:type>framework</xt:type>
+
+		<!-- This could be Jeni, but she's not participated in this add-on release. -->
+		<xt:author>https://github.com/xspec/xspec</xt:author>
+
+		<xt:name>XSpec</xt:name>
+
+		<xt:description>
+			<xi:include href="latest.xhtml">
+				<xi:fallback>Visit https://github.com/xspec/xspec and see
+					editors/oxygen/add-on/description/latest.xhtml</xi:fallback>
+			</xi:include>
+		</xt:description>
+
+		<xt:license><![CDATA[
+			The MIT License
+
+Copyright (c) 2008-2017 Jeni Tennison
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+		]]></xt:license>
+
+	</xt:extension>
+
+</xt:extensions>
