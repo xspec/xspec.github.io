@@ -16,6 +16,15 @@
 		<div>
 			<h2 style="margin-top: 8mm">Changelog (not inclusive)</h2>
 			<div>
+				<h3>v3.4.1</h3>
+				<ul>
+					<li>xspec.bat and xspec.sh scripts support running tests for Schematron schemas using XQS as the Schematron implementation. Before running the script, you must install BaseX and set an environment variable named BASEX_JAR to the location of BaseX.jar. </li>
+					<li>The built-in XQuery-based Schematron implementation, XQS, is now v1.1.5.</li>
+					<li>The XProc-based Oxygen transformation scenarios for running XSpec tests for XSLT and XQuery now use XProc 3 instead of XProc 1.</li>
+					<li>Tested with Oxygen 28.0. This add-on requires Oxygen 28.0 or later, due to the XProc 3 scenarios.</li>
+				</ul>
+			</div>
+			<div>
 				<h3>v3.3.2</h3>
 				<ul>
 					<li>Official release of v3.3. For features, see v3.3.1 listing below.</li>
@@ -74,17 +83,6 @@
 				<h3>v3.1.2</h3>
 				<ul>
 					<li>Official release of v3.1</li>
-				</ul>
-			</div>
-			<div>
-				<h3>v3.1.1</h3>
-				<ul>
-					<li>Release Candidate of the stable release</li>
-					<li>fix(report): XSLT code coverage reports for Saxon 12.4 have many bug fixes in the coverage status</li>
-					<li>feat(schematron): SchXslt 1.10 replaces 1.9.5 as the built-in Schematron implementation</li>
-					<li>Tested with Saxon 10.9, 11.6, and 12.5, except that detailed contents of XSLT code coverage reports are tested with Saxon 12.4</li>
-					<li>Tested with Oxygen 26.1</li>
-					<li>Tested with BaseX 11.3</li>
 				</ul>
 			</div>
 		</div>
