@@ -14,15 +14,15 @@
 			* Update the changelog in xt:description
 		-->
 		<xt:location
-			href="https://github.com/xspec/xspec/archive/refs/tags/v3.3.2.zip" />
+			href="https://github.com/xspec/xspec/archive/refs/tags/v3.4.1.zip" />
 
-		<xt:version>3.3.2</xt:version>
+		<xt:version>3.4.1</xt:version>
 
 		<!-- Note that supporting multiple oXygen versions may be hard to maintain, because
 			* oXygen add-on and framework require manual testing.
 			* oXygen framework cannot always be backward compatible. See
 			  https://github.com/TEIC/oxygen-tei/issues/30. -->
-		<xt:oxy_version>24.1+</xt:oxy_version>
+		<xt:oxy_version>28.0+</xt:oxy_version>
 
 		<xt:type>framework</xt:type>
 
