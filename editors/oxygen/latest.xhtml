@@ -16,6 +16,15 @@
 		<div>
 			<h2 style="margin-top: 8mm">Changelog (not inclusive)</h2>
 			<div>
+				<h3>v3.4.2</h3>
+				<ul>
+					<li>Release Candidate of the stable release</li>
+					<li>Ant and the "Run XSpec Test" transformation scenario support running tests for Schematron schemas using XQS as the Schematron implementation. You must install BaseX and use the xspec.basex.classpath property (Parameters tab in Edit Ant Scenario dialog) to indicate the location of BaseX.jar.</li>
+					<li>Tested with XML Calabash 3.0.40.</li>
+					<li>Tested with BaseX 12.2.</li>
+				</ul>
+			</div>
+			<div>
 				<h3>v3.4.1</h3>
 				<ul>
 					<li>Requires Java 17 or later. XSpec is tested with Java 17 and 21.</li>
@@ -23,6 +32,7 @@
 					<li>The built-in XQuery-based Schematron implementation, XQS, is now v1.1.5.</li>
 					<li>The XProc-based Oxygen transformation scenarios for running XSpec tests for XSLT and XQuery now use XProc 3 instead of XProc 1.</li>
 					<li>Tested with Oxygen 28.0. This add-on requires Oxygen 28.0 or later, due to the XProc 3 scenarios.</li>
+					<li>After x:context or x:call, the x:variable and x:like elements can appear in any order and can be mixed.</li>
 					<li>Tested with BaseX 12.1.</li>
 					<li>Tested with Saxon 12.9 and 11.7. XSpec no longer supports Saxon 10.</li>
 				</ul>
@@ -80,12 +90,6 @@
 					<li>Fix for <a href="https://github.com/xspec/xspec-maven-plugin-1/">xspec/xspec-maven-plugin-1</a> and other uses
 						of XSpec from a .zip or .jar file</li>
 					<li>SchXslt 1.10.1 replaces 1.10 as the built-in Schematron implementation</li>
-				</ul>
-			</div>
-			<div>
-				<h3>v3.1.2</h3>
-				<ul>
-					<li>Official release of v3.1</li>
 				</ul>
 			</div>
 		</div>
