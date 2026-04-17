@@ -16,6 +16,30 @@
 		<div>
 			<h2 style="margin-top: 8mm">Changelog (not inclusive)</h2>
 			<div>
+				<h3>v4.0.1</h3>
+				<ul>
+					<li>XSpec supports testing XProc 3 steps. To learn more, see <a
+							href="https://github.com/xspec/xspec/wiki/Getting-Started-with-XSpec-for-Testing-XProc"
+							>Getting Started with XSpec for Testing XProc</a>. Corresponding Oxygen transformation scenarios are:
+						<ul>
+							<li>"Run XSpec Test", where you point "xspec.xmlcalabash.classpath" to your own XML Calabash 3 installation</li>
+							<li>"XSpec for XProc using XProc", which uses XML Calabash 3 built into Oxygen</li>
+						</ul>
+					</li>
+					<li>SchXslt2 v1.10.3 replaces SchXslt, for testing Schematron schemas having an XSLT-based queryBinding. Notes:
+						<ul>
+							<li>To specify a Schematron phase in your test, use a global x:param element. With SchXslt2,
+								the parameter name is "Q{http://dmaus.name/ns/2023/schxslt namespace}phase", not "phase".</li>
+							<li>SchXslt usage in XSpec is <a
+									href="https://github.com/xspec/xspec/wiki/Using-Another-Implementation-of-Schematron#using-schxslt-with-xspec-v232-and-earlier-or-v40-onward"
+									>deprecated but still works</a>.</li>
+						</ul>
+					</li>
+					<li>The XProc 3 pipelines for running XSpec tests can produce JUnit reports on the new
+						"junit" output port. To produce JUnit reports, set the "junit-enabled" option to "true".</li>
+				</ul>
+			</div>
+			<div>
 				<h3>v3.4.3</h3>
 				<ul>
 					<li>Official release of v3.4. For features, see v3.4.x listings below.</li>
@@ -77,18 +101,6 @@
 					<li>Code coverage report includes Contents section with coverage statistics
 						(<a href="https://github.com/xspec/xspec/pull/2078">#2078</a>).</li>
 					<li>Tested with BaseX 11.7.</li>
-				</ul>
-			</div>
-			<div>
-				<h3>v3.2.0</h3>
-				<ul>
-					<li>Test reports use black text on white background by default, improving accessibility.
-						Themes 'whiteblack' (white on black) and 'classic' (earlier green/pink design) are
-						also available. (<a href="https://github.com/xspec/xspec/pull/1822">#2055</a>)</li>
-					<li>Tests for Schematron can verify string values of Schematron properties
-						(<a href="https://github.com/xspec/xspec/pull/1822">#2045</a>).</li>
-					<li>Tested with BaseX 11.6</li>
-					<li>Tested with Oxygen 27.0.</li>
 				</ul>
 			</div>
 		</div>
