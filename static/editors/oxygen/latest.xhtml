@@ -16,6 +16,23 @@
 		<div>
 			<h2 style="margin-top: 8mm">Changelog (not inclusive)</h2>
 			<div>
+				<h3>v4.1.1</h3>
+				<ul>
+					<li>Release Candidate of the stable release</li>
+					<li>You can use an XProc 3 pipeline to execute an XSpec test for a Schematron schema that
+						has an XSLT-based queryBinding. The corresponding Oxygen transformation scenario is
+						"XSpec for Schematron using XProc and XSLT".</li>
+					<li>You can execute a test for XProc with either MorganaXProc-III Extended Edition (new in v4.1) or
+						XML Calabash 3 (since v4.0). Both processors support executing your test suite
+						from XProc, Ant, or a shell/batch script.</li>
+					<li>The XSLT code coverage feature has minor changes to make it compatible with
+						Saxon 13.0 as well as Saxon 12.7-12.10.</li>
+					<li>SchXslt2 1.11.2 replaces 1.11.1, for testing Schematron schemas having an XSLT-based queryBinding.</li>
+					<li>Tested with Saxon 12.10 and 13.0. XSpec no longer supports Saxon 11.</li>
+					<li>Support for testing XProc is tested with MorganaXProc-IIIee 1.8.16 and XML Calabash 3.0.54.</li>
+				</ul>
+			</div>
+			<div>
 				<h3>v4.0.3</h3>
 				<ul>
 					<li>Bug fixes related to error catching (catch="yes") and importing (x:import) in tests for Schematron</li>
@@ -96,19 +113,6 @@
 				<ul>
 					<li>Official release of v3.3. For features, see v3.3.1 listing below.</li>
 					<li>Tested with Saxon 12.9, 11.7, and 10.9.</li>
-				</ul>
-			</div>
-			<div>
-				<h3>v3.3.1</h3>
-				<ul>
-					<li>Release Candidate of the stable release</li>
-					<li>You can execute an XSpec test for XSLT or XQuery using an XProc 3 pipeline (<a href="https://github.com/xspec/xspec/pull/2127"
-							>#2127</a>)</li>
-					<li>You can execute an XSpec test for a Schematron schema that has an XQuery-based queryBinding, using XQS as the Schematron implementation (<a href="https://github.com/xspec/xspec/pull/2157"
-							>#2157</a>)</li>
-					<li>In the x:expect element, the new, optional 'result-type' attribute describes the sequence type you expect for the actual result. XSpec checks the type before evaluating @test, so an unexpected type leads to an ordinary failure instead of a type error. (<a href="https://github.com/xspec/xspec/pull/2122"
-							>#2122</a>)</li>
-					<li>Tested with BaseX 12.0</li>
 				</ul>
 			</div>
 		</div>
