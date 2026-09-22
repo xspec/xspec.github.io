@@ -30,4 +30,4 @@ XSpec 4.1 supports testing XProc using MorganaXProc-IIIee and running tests for 
 * You can execute a test for XProc with either MorganaXProc-III Extended Edition (new in v4.1) or XML Calabash 3 (since v4.0). Both processors support executing your test suite from XProc, Ant, or a shell/batch script. For details, see [XSpec test for XProc with XProc 3 and MorganaXProc-IIIee XProc processor](https://github.com/xspec/xspec/wiki/Running-with-XProc#xspec-test-for-xproc-with-xproc-3-and-morganaxproc-iiiee-xproc-processor) or other [mentions of MorganaXProc](https://github.com/search?q=repo%3Axspec%2Fxspec+MorganaXProc&type=wikis) in the XSpec wiki.
 * Support for testing XProc is tested with MorganaXProc-IIIee 1.8.17 and XML Calabash 3.0.54.
 
-Many thanks to all the XSpec contributors who made this release possible! They are listed in the [release notes](https://github.com/xspec/xspec/releases/tag/4.1.2).
+Many thanks to all the XSpec contributors who made this release possible! They are listed in the [release notes](https://github.com/xspec/xspec/releases/tag/v4.1.2).
